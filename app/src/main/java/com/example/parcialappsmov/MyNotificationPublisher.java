@@ -46,7 +46,9 @@ public class MyNotificationPublisher extends BroadcastReceiver {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context.getApplicationContext(), CHANNEL_ID);
       //  builder.setSmallIcon(R.drawable.);
         builder.setContentTitle("Registro");
-        builder.setContentText("Se ha realizado el registro");
+        builder.setContentText("Se ha realizado el registro"); // ACÁ mostraria los datos ingresados
+
+
         builder.setColor(Color.BLUE);
         builder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
         builder.setLights(Color.MAGENTA, 1000, 1000);

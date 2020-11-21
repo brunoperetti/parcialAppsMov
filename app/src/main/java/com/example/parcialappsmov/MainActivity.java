@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     Button btn;
     EditText txt;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
             return null;
 
-            //return params[0];
+
         }
 
         @Override
